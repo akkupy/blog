@@ -1,6 +1,6 @@
 site_name: "Akkupy | Documentations"
 site_description: "I'm Akash S / Akkupy and this is a documentation website that contains docs on my projects and series. It also contains serveral tech based articles that you can check out!"
-site_url: "https://docs.akkupy.me/"
+site_url: "https://docs.akkupy.com/"
 repo_url: "https://github.com/akkupy/docs/"
 repo_name: "akkupy/docs"
 
@@ -42,7 +42,7 @@ nav:
 
 theme:
   name: material
-  favicon: https://docs.akkupy.me/assets/favicon/favicon-480x480.ico
+  favicon: https://docs.akkupy.com/assets/favicon/favicon-480x480.ico
   icon:
     admonition:
       note: fontawesome/solid/note-sticky

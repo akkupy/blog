@@ -19,9 +19,9 @@ image:
 
 The first distinction we have to be aware of is whether a DNS server is authoritative or not. 
 
-If I'm the authoritative server for, e.g., ```akkupy.me```, then I know which IP is the correct answer for a query. Recursive name servers, in contrast, resolve any query they receive by consulting the servers authoritative for this query by traversing the domain. 
+If I'm the authoritative server for, e.g., ```akkupy.com```, then I know which IP is the correct answer for a query. Recursive name servers, in contrast, resolve any query they receive by consulting the servers authoritative for this query by traversing the domain. 
 
-Example: We want to resolve ```akkupy.me```. On behalf of the client, the recursive DNS server will traverse the path of the domain across the Internet to deliver the answer to the question.
+Example: We want to resolve ```akkupy.com```. On behalf of the client, the recursive DNS server will traverse the path of the domain across the Internet to deliver the answer to the question.
 
 
 ## Setting up Pi-hole as a recursive DNS server solution¶
